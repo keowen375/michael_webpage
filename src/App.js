@@ -59,9 +59,9 @@ function App() {
         <h2>Get In Touch</h2>
         <p>Feel free to reach out for collaborations or just a friendly hello 👋</p>
         <div className="links">
-          <a href="mailto:keowen375@gmail.com">Email</a>
-          <a href="https://github.com/keowen375" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/michael-owen-2a869424b" target="_blank" rel="noreferrer">LinkedIn</a>
+          <span className="email">keowen375@gmail.com</span>
+          <a href="https://github.com/keowen375" target="_blank" rel="noreferrer" className="contact-link">github.com/keowen375</a>
+          <a href="https://www.linkedin.com/in/michael-owen-2a869424b" target="_blank" rel="noreferrer" className="contact-link">linkedin.com/in/michael-owen-2a869424b</a>
         </div>
       </section>
     </div>

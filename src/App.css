@@ -93,8 +93,15 @@ body {
 }
 
 /* Contact Links */
-.links a {
-  margin-right: 15px;
+.links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.links a,
+.links .email {
   text-decoration: none;
   color: #0073e6;
   font-weight: bold;
